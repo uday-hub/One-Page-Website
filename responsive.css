@@ -1,0 +1,2747 @@
+@media only screen and (max-device-width:280px) {
+    .overlay {
+        height: 100%;
+    }
+    .truck_img {
+        top: 250px;
+        width: 40rem;
+    }
+    .Truck {
+        position: fixed;
+        width: 40rem;
+        right: 9rem;
+    }
+    .home {
+        flex-direction: row;
+    }
+    .home .left {
+        flex-direction: column;
+        right: 0;
+        position: relative;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+        padding-right: 5rem;
+        padding-left: 5rem;
+        bottom: -6rem;
+    }
+    .first_para {
+        font-size: 5rem;
+    }
+    .second_para {
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+    .left_button {
+        width: 35%;
+        height: 3rem;
+        font-size: 1.5rem;
+        outline-style: none;
+        border: none;
+    }
+    .home .right {
+        display: none;
+    }
+    .left_button {
+        margin-top: 4rem;
+        font-size: 3rem;
+        width: 50%;
+        height: 20%;
+    }
+    .about_main {
+        top: 159px;
+        z-index: 10;
+    }
+    .about {
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+    }
+    .about_left {
+        width: 100%;
+        border: none;
+        outline: none;
+    }
+    .about_right {
+        width: 100%;
+    }
+    .about_right_img {
+        width: 100%;
+        margin-top: 13rem;
+        height: 30rem;
+    }
+    .our_services {
+        align-items: center;
+        text-align: center;
+    }
+    .services_title {
+        font-size: 6rem;
+    }
+    .services_main {
+        flex-wrap: wrap;
+        line-height: 1.85714285714286;
+    }
+    .icon_first, .icon_second, .icon_third, .icon_four {
+        display: flex;
+        flex-direction: column;
+    }
+    .image_icon_truck img, .image_icon_ship img, .image_icon_jet img, .image_icon_rail img {
+        width: 23%;
+    }
+    .first_content h2, .second_content h2, .third_content h2, .four_content h2 {
+        font-size: 4rem;
+        padding: 1.5rem 0 1.5rem 0;
+    }
+    .first_content p, .second_content p, .third_content p, .four_content p {
+        font-size: 2rem;
+    }
+    .row {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .employees, .customer, .design, .order {
+        border: none;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-bottom: 2px solid white;
+        padding-bottom: 3rem;
+        letter-spacing: 2px;
+    }
+  
+    .design p:nth-child(1), .employees p:nth-child(1), .customer p:nth-child(1), .order p:nth-child(1) {
+        font-size: 13rem;
+        padding: 1rem 0 1rem 0;
+        font-weight: 600;
+    }
+    .employee-p, .customer-p, .design-p, .order-p {
+        font-size: 3rem;
+        padding: 4.5rem 0 1rem 0;
+        font-weight: 600;
+    }
+    .slider_title {
+        font-size: 6rem;
+        text-align: center;
+    }
+    .quote {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+    .quote_left {
+        padding: 0;
+        margin-top: 2rem;
+    }
+    .quote_left h1 {
+        padding-top: 3rem;
+        font-size: 4rem;
+    }
+    .quote_left hr {
+        width: 100%;
+    }
+    .quote_left p {
+        padding-top: 3rem;
+        font-size: 2.5rem;
+        line-height: 4rem;
+    }
+    .quote_right {
+        width: 100%;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .qoute_button {
+        width: 70%;
+        height: 6rem;
+        font-size: 3rem;
+    }
+    .testimonials {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .testimonials_title {
+        padding-left: 0 !important;
+        margin: 0 0 0 -3rem;
+        align-items: center;
+        text-align: center;
+        overflow: hidden;
+    }
+    .testimonials_title p {
+        font-size: 7rem;
+    }
+    .testimonials_head_1, .testimonials_head_2, .testimonials_head_3 {
+        flex-wrap: wrap-reverse;
+        height: auto;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 3rem;
+    }
+    .testimonials_left {
+        height: auto;
+        width: auto;
+        margin-bottom: 2rem;
+    }
+    .testimonials_left img {
+        width: 9rem;
+        height: 9rem;
+    }
+    .testimonials_h1 {
+        font-size: 3.5rem;
+    }
+    .testimonials_h2 {
+        font-size: 2.5rem;
+    }
+    .testimonials_right {
+        padding-top: 0;
+        padding: 2rem 2rem 2rem 2rem;
+    }
+    .testimonials_right h2 {
+        font-size: 2rem;
+    }
+    .testimonials_head_2 .testimonials_left, .testimonials_head_3 .testimonials_left {
+        margin-bottom: 2rem;
+    }
+    .contact_title h1 {
+        margin-left: 0 !important;
+        align-items: center;
+        text-align: center;
+    }
+    .form {
+        display: flex;
+        flex-wrap: wrap;
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+    .form_left {
+        width: 100%;
+        padding-left: 0px;
+    }
+    .form_left_fir h3, .form_left_third h3 {
+        font-size: 3rem;
+        padding-top: 3rem;
+        padding-bottom: 6rem;
+    }
+    .form_left_fir p {
+        font-size: 2rem;
+    }
+    .form_left_third a {
+        margin: 0 1rem 0 1rem;
+    }
+    .fa {
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: 7rem;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        border-radius: 50%;
+        -moz-osx-font-smoothing: grayscale;
+        width: 23%;
+        height: 10rem;
+    }
+    .fa-facebook-f:before, .fa-facebook:before {
+        font-size: 6.5rem;
+    }
+    .fa-twitter:before {
+        font-size: 6.5rem;
+    }
+    .fa-instagram:before {
+        font-size: 6.5rem;
+        border: none;
+    }
+    .form_right {
+        width: 100%;
+        padding-bottom: 6rem;
+    }
+    .form_right h2 {
+        font-size: 3rem;
+        margin-top: 2rem;
+        padding: 2rem 2rem 2rem 0;
+    }
+    .form_input input:nth-child(1), .form_input input:nth-child(2), .form_input input:nth-child(3) {
+        height: 7rem;
+        font-size: 2.5rem;
+    }
+    .form_input .message {
+        height: 12rem;
+        font-size: 2rem;
+    }
+    .form_input .form_button {
+        width: 50%;
+        height: 5rem;
+        font-size: 3rem;
+        margin-top: 2rem;
+    }
+    footer {
+        top: 160px;
+        bottom: 0 !important;
+    }
+    footer .footer {
+        height: auto;
+        flex-direction: column;
+        padding: 3rem 0 3rem 0;
+    }
+    .footer p {
+        font-size: 2.5rem;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    } 
+}
+@media only screen and (min-device-width:281px) and (max-device-width:320px) {
+    .overlay {
+        height: 50.3%;
+    }
+    .truck_img {
+        top: 250px;
+        width: 40rem;
+    }
+    .Truck {
+        position: fixed;
+        width: 40rem;
+        right: 9rem;
+    }
+    .home {
+        flex-direction: row;
+    }
+    .home .left {
+        flex-direction: column;
+        right: 0;
+        position: relative;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+        padding-right: 5rem;
+        padding-left: 5rem;
+        bottom: -6rem;
+    }
+    .first_para {
+        font-size: 5rem;
+    }
+    .second_para {
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+    .left_button {
+        width: 35%;
+        height: 3rem;
+        font-size: 1.5rem;
+        outline-style: none;
+        border: none;
+    }
+    .home .right {
+        display: none;
+    }
+    .left_button {
+        margin-top: 4rem;
+        font-size: 3rem;
+        width: 50%;
+        height: 20%;
+    }
+    .about_main {
+        top: 159px;
+    }
+    .about {
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+    }
+    .about_left {
+        width: 100%;
+        border: none;
+        outline: none;
+    }
+    .about_right {
+        width: 100%;
+    }
+    .about_right_img {
+        width: 100%;
+        margin-top: 13rem;
+        height: 30rem;
+    }
+    .our_services {
+        align-items: center;
+        text-align: center;
+    }
+    .services_title {
+        font-size: 6rem;
+    }
+    .services_main {
+        flex-wrap: wrap;
+        line-height: 1.85714285714286;
+    }
+    .icon_first, .icon_second, .icon_third, .icon_four {
+        display: flex;
+        flex-direction: column;
+    }
+    .image_icon_truck img, .image_icon_ship img, .image_icon_jet img, .image_icon_rail img {
+        width: 23%;
+    }
+    .first_content h2, .second_content h2, .third_content h2, .four_content h2 {
+        font-size: 4rem;
+        padding: 1.5rem 0 1.5rem 0;
+    }
+    .first_content p, .second_content p, .third_content p, .four_content p {
+        font-size: 2rem;
+    }
+    .row {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .employees, .customer, .design, .order {
+        border: none;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-bottom: 2px solid white;
+        padding-bottom: 3rem;
+        letter-spacing: 2px;
+    }
+  
+    .design p:nth-child(1), .employees p:nth-child(1), .customer p:nth-child(1), .order p:nth-child(1) {
+        font-size: 13rem;
+        padding: 1rem 0 1rem 0;
+        font-weight: 600;
+    }
+    .employee-p, .customer-p, .design-p, .order-p {
+        font-size: 3rem;
+        padding: 4.5rem 0 1rem 0;
+        font-weight: 600;
+    }
+    .slider_title {
+        font-size: 6rem;
+        text-align: center;
+    }
+    .quote {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+    .quote_left {
+        padding: 0;
+        margin-top: 2rem;
+    }
+    .quote_left h1 {
+        padding-top: 3rem;
+        font-size: 4rem;
+    }
+    .quote_left hr {
+        width: 100%;
+    }
+    .quote_left p {
+        padding-top: 3rem;
+        font-size: 2.5rem;
+        line-height: 4rem;
+    }
+    .quote_right {
+        width: 100%;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .qoute_button {
+        width: 70%;
+        height: 6rem;
+        font-size: 3rem;
+    }
+    .testimonials {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .testimonials_title {
+        padding-left: 0 !important;
+        margin: 0 0 0 -3rem;
+        align-items: center;
+        text-align: center;
+        overflow: hidden;
+    }
+    .testimonials_title p {
+        font-size: 7rem;
+    }
+    .testimonials_head_1, .testimonials_head_2, .testimonials_head_3 {
+        flex-wrap: wrap-reverse;
+        height: auto;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 3rem;
+    }
+    .testimonials_left {
+        height: auto;
+        width: auto;
+        margin-bottom: 2rem;
+    }
+    .testimonials_left img {
+        width: 9rem;
+        height: 9rem;
+    }
+    .testimonials_h1 {
+        font-size: 3.5rem;
+    }
+    .testimonials_h2 {
+        font-size: 2.5rem;
+    }
+    .testimonials_right {
+        padding-top: 0;
+        padding: 2rem 2rem 2rem 2rem;
+    }
+    .testimonials_right h2 {
+        font-size: 2rem;
+    }
+    .testimonials_head_2 .testimonials_left, .testimonials_head_3 .testimonials_left {
+        margin-bottom: 2rem;
+    }
+    .contact_title h1 {
+        margin-left: 0 !important;
+        align-items: center;
+        text-align: center;
+    }
+    .form {
+        display: flex;
+        flex-wrap: wrap;
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+    .form_left {
+        width: 100%;
+        padding-left: 0px;
+    }
+    .form_left_fir h3, .form_left_third h3 {
+        font-size: 3rem;
+        padding-top: 3rem;
+        padding-bottom: 6rem;
+    }
+    .form_left_fir p {
+        font-size: 2rem;
+    }
+    .form_left_third a {
+        margin: 0 1rem 0 1rem;
+    }
+    .fa {
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: 7rem;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        border-radius: 50%;
+        -moz-osx-font-smoothing: grayscale;
+        width: 23%;
+        height: 10rem;
+    }
+    .fa-facebook-f:before, .fa-facebook:before {
+        font-size: 6.5rem;
+    }
+    .fa-twitter:before {
+        font-size: 6.5rem;
+    }
+    .fa-instagram:before {
+        font-size: 6.5rem;
+        border: none;
+    }
+    .form_right {
+        width: 100%;
+        padding-bottom: 6rem;
+    }
+    .form_right h2 {
+        font-size: 3rem;
+        margin-top: 2rem;
+        padding: 2rem 2rem 2rem 0;
+    }
+    .form_input input:nth-child(1), .form_input input:nth-child(2), .form_input input:nth-child(3) {
+        height: 7rem;
+        font-size: 2.5rem;
+    }
+    .form_input .message {
+        height: 12rem;
+        font-size: 2rem;
+    }
+    .form_input .form_button {
+        width: 50%;
+        height: 5rem;
+        font-size: 3rem;
+        margin-top: 2rem;
+    }
+    footer {
+        top: 160px;
+        bottom: 0 !important;
+    }
+    footer .footer {
+        height: auto;
+        flex-direction: column;
+        padding: 3rem 0 3rem 0;
+    }
+    .footer p {
+        font-size: 2.5rem;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+}
+@media only screen and (min-device-width:321px) and (max-device-width:480px) {
+    .overlay {
+        height: 100%;
+    }
+    .truck_img {
+        top: 250px;
+        width: 40rem;
+    }
+    .Truck {
+        position: fixed;
+        width: 40rem;
+        right: 9rem;
+    }
+    .home {
+        flex-direction: row;
+    }
+    .home .left {
+        flex-direction: column;
+        right: 0;
+        position: relative;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+        padding-right: 5rem;
+        padding-left: 5rem;
+        bottom: -6rem;
+    }
+    .first_para {
+        font-size: 5rem;
+    }
+    .second_para {
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+    .left_button {
+        width: 35%;
+        height: 3rem;
+        font-size: 1.5rem;
+        outline-style: none;
+        border: none;
+    }
+    .home .right {
+        display: none;
+    }
+    .left_button {
+        margin-top: 4rem;
+        font-size: 3rem;
+        width: 50%;
+        height: 20%;
+    }
+    .about_main {
+        top: 159px;
+        z-index: 10;
+    }
+    .about {
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+    }
+    .about_left {
+        width: 100%;
+        border: none;
+        outline: none;
+    }
+    .about_right {
+        width: 100%;
+    }
+    .about_right_img {
+        width: 100%;
+        margin-top: 13rem;
+        height: 30rem;
+    }
+    .our_services {
+        align-items: center;
+        text-align: center;
+    }
+    .services_title {
+        font-size: 6rem;
+    }
+    .services_main {
+        flex-wrap: wrap;
+        line-height: 1.85714285714286;
+    }
+    .icon_first, .icon_second, .icon_third, .icon_four {
+        display: flex;
+        flex-direction: column;
+    }
+    .image_icon_truck img, .image_icon_ship img, .image_icon_jet img, .image_icon_rail img {
+        width: 23%;
+    }
+    .first_content h2, .second_content h2, .third_content h2, .four_content h2 {
+        font-size: 4rem;
+        padding: 1.5rem 0 1.5rem 0;
+    }
+    .first_content p, .second_content p, .third_content p, .four_content p {
+        font-size: 2rem;
+    }
+    .row {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .employees, .customer, .design, .order {
+        border: none;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-bottom: 2px solid white;
+        padding-bottom: 3rem;
+        letter-spacing: 2px;
+    }
+  
+    .design p:nth-child(1), .employees p:nth-child(1), .customer p:nth-child(1), .order p:nth-child(1) {
+        font-size: 13rem;
+        padding: 1rem 0 1rem 0;
+        font-weight: 600;
+    }
+    .employee-p, .customer-p, .design-p, .order-p {
+        font-size: 3rem;
+        padding: 4.5rem 0 1rem 0;
+        font-weight: 600;
+    }
+    .slider_title {
+        font-size: 6rem;
+        text-align: center;
+    }
+    .quote {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+    .quote_left {
+        padding: 0;
+        margin-top: 2rem;
+    }
+    .quote_left h1 {
+        padding-top: 3rem;
+        font-size: 4rem;
+    }
+    .quote_left hr {
+        width: 100%;
+    }
+    .quote_left p {
+        padding-top: 3rem;
+        font-size: 2.5rem;
+        line-height: 4rem;
+    }
+    .quote_right {
+        width: 100%;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .qoute_button {
+        width: 70%;
+        height: 6rem;
+        font-size: 3rem;
+    }
+    .testimonials {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .testimonials_title {
+        padding-left: 0 !important;
+        margin: 0 0 0 -3rem;
+        align-items: center;
+        text-align: center;
+        overflow: hidden;
+    }
+    .testimonials_title p {
+        font-size: 7rem;
+    }
+    .testimonials_head_1, .testimonials_head_2, .testimonials_head_3 {
+        flex-wrap: wrap-reverse;
+        height: auto;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 3rem;
+    }
+    .testimonials_left {
+        height: auto;
+        width: auto;
+        margin-bottom: 2rem;
+    }
+    .testimonials_left img {
+        width: 9rem;
+        height: 9rem;
+    }
+    .testimonials_h1 {
+        font-size: 3.5rem;
+    }
+    .testimonials_h2 {
+        font-size: 2.5rem;
+    }
+    .testimonials_right {
+        padding-top: 0;
+        padding: 2rem 2rem 2rem 2rem;
+    }
+    .testimonials_right h2 {
+        font-size: 2rem;
+    }
+    .testimonials_head_2 .testimonials_left, .testimonials_head_3 .testimonials_left {
+        margin-bottom: 2rem;
+    }
+    .contact_title h1 {
+        margin-left: 0 !important;
+        align-items: center;
+        text-align: center;
+    }
+    .form {
+        display: flex;
+        flex-wrap: wrap;
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+    .form_left {
+        width: 100%;
+        padding-left: 0px;
+    }
+    .form_left_fir h3, .form_left_third h3 {
+        font-size: 3rem;
+        padding-top: 3rem;
+        padding-bottom: 6rem;
+    }
+    .form_left_fir p {
+        font-size: 2rem;
+    }
+    .form_left_third a {
+        margin: 0 1rem 0 1rem;
+    }
+    .fa {
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: 7rem;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        border-radius: 50%;
+        -moz-osx-font-smoothing: grayscale;
+        width: 23%;
+        height: 10rem;
+    }
+    .fa-facebook-f:before, .fa-facebook:before {
+        font-size: 6.5rem;
+    }
+    .fa-twitter:before {
+        font-size: 6.5rem;
+    }
+    .fa-instagram:before {
+        font-size: 6.5rem;
+        border: none;
+    }
+    .form_right {
+        width: 100%;
+        padding-bottom: 6rem;
+    }
+    .form_right h2 {
+        font-size: 3rem;
+        margin-top: 2rem;
+        padding: 2rem 2rem 2rem 0;
+    }
+    .form_input input:nth-child(1), .form_input input:nth-child(2), .form_input input:nth-child(3) {
+        height: 7rem;
+        font-size: 2.5rem;
+    }
+    .form_input .message {
+        height: 12rem;
+        font-size: 2rem;
+    }
+    .form_input .form_button {
+        width: 50%;
+        height: 5rem;
+        font-size: 3rem;
+        margin-top: 2rem;
+    }
+    footer {
+        top: 160px;
+        bottom: 0 !important;
+    }
+    footer .footer {
+        height: auto;
+        flex-direction: column;
+        padding: 3rem 0 3rem 0;
+    }
+    .footer p {
+        font-size: 2.5rem;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+}
+@media only screen and (min-device-width: 481px) and (max-device-width:812px) {
+
+    .overlay {
+        height: 200%;
+    }
+    .truck_img {
+        top: 250px;
+        width: 40rem;
+    }
+    .Truck {
+        position: fixed;
+        width: 40rem;
+        right: 9rem;
+    }
+    .home {
+        flex-direction: row;
+    }
+    .home .left {
+        flex-direction: column;
+        right: 0;
+        position: relative;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+        padding-right: 5rem;
+        padding-left: 5rem;
+        bottom: -6rem;
+    }
+    .first_para {
+        font-size: 5rem;
+    }
+    .second_para {
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+    .left_button {
+        width: 35%;
+        height: 3rem;
+        font-size: 1.5rem;
+        outline-style: none;
+        border: none;
+    }
+    .home .right {
+        display: none;
+    }
+    .left_button {
+        margin-top: 4rem;
+        font-size: 3rem;
+        width: 50%;
+        height: 20%;
+    }
+    .about_main {
+        top: 159px;
+        z-index: 10;
+    }
+    .about {
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+    }
+    .about_left {
+        width: 100%;
+        border: none;
+        outline: none;
+    }
+    .about_right {
+        width: 100%;
+    }
+    .about_right_img {
+        width: 100%;
+        margin-top: 13rem;
+        height: 30rem;
+    }
+    .our_services {
+        align-items: center;
+        text-align: center;
+    }
+    .services_title {
+        font-size: 6rem;
+    }
+    .services_main {
+        flex-wrap: wrap;
+        line-height: 1.85714285714286;
+    }
+    .icon_first, .icon_second, .icon_third, .icon_four {
+        display: flex;
+        flex-direction: column;
+    }
+    .image_icon_truck img, .image_icon_ship img, .image_icon_jet img, .image_icon_rail img {
+        width: 23%;
+    }
+    .first_content h2, .second_content h2, .third_content h2, .four_content h2 {
+        font-size: 4rem;
+        padding: 1.5rem 0 1.5rem 0;
+    }
+    .first_content p, .second_content p, .third_content p, .four_content p {
+        font-size: 2rem;
+    }
+    .row {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .employees, .customer, .design, .order {
+        border: none;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-bottom: 2px solid white;
+        padding-bottom: 3rem;
+        letter-spacing: 2px;
+    }
+  
+    .design p:nth-child(1), .employees p:nth-child(1), .customer p:nth-child(1), .order p:nth-child(1) {
+        font-size: 13rem;
+        padding: 1rem 0 1rem 0;
+        font-weight: 600;
+    }
+    .employee-p, .customer-p, .design-p, .order-p {
+        font-size: 3rem;
+        padding: 4.5rem 0 1rem 0;
+        font-weight: 600;
+    }
+    .slider_title {
+        font-size: 6rem;
+        text-align: center;
+    }
+    .quote {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+    .quote_left {
+        padding: 0;
+        margin-top: 2rem;
+    }
+    .quote_left h1 {
+        padding-top: 3rem;
+        font-size: 4rem;
+    }
+    .quote_left hr {
+        width: 100%;
+    }
+    .quote_left p {
+        padding-top: 3rem;
+        font-size: 2.5rem;
+        line-height: 4rem;
+    }
+    .quote_right {
+        width: 100%;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .qoute_button {
+        width: 70%;
+        height: 6rem;
+        font-size: 3rem;
+    }
+    .testimonials {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .testimonials_title {
+        padding-left: 0 !important;
+        margin: 0 0 0 -3rem;
+        align-items: center;
+        text-align: center;
+        overflow: hidden;
+    }
+    .testimonials_title p {
+        font-size: 7rem;
+    }
+    .testimonials_head_1, .testimonials_head_2, .testimonials_head_3 {
+        flex-wrap: wrap-reverse;
+        height: auto;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 3rem;
+    }
+    .testimonials_left {
+        height: auto;
+        width: auto;
+        margin-bottom: 2rem;
+    }
+    .testimonials_left img {
+        width: 9rem;
+        height: 9rem;
+    }
+    .testimonials_h1 {
+        font-size: 3.5rem;
+    }
+    .testimonials_h2 {
+        font-size: 2.5rem;
+    }
+    .testimonials_right {
+        padding-top: 0;
+        padding: 2rem 2rem 2rem 2rem;
+    }
+    .testimonials_right h2 {
+        font-size: 2rem;
+    }
+    .testimonials_head_2 .testimonials_left, .testimonials_head_3 .testimonials_left {
+        margin-bottom: 2rem;
+    }
+    .contact_title h1 {
+        margin-left: 0 !important;
+        align-items: center;
+        text-align: center;
+    }
+    .form {
+        display: flex;
+        flex-wrap: wrap;
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+    .form_left {
+        width: 100%;
+        padding-left: 0px;
+    }
+    .form_left_fir h3, .form_left_third h3 {
+        font-size: 3rem;
+        padding-top: 3rem;
+        padding-bottom: 6rem;
+    }
+    .form_left_fir p {
+        font-size: 2rem;
+    }
+    .form_left_third a {
+        margin: 0 1rem 0 1rem;
+    }
+    .fa {
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: 7rem;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        border-radius: 50%;
+        -moz-osx-font-smoothing: grayscale;
+        width: 23%;
+        height: 10rem;
+    }
+    .fa-facebook-f:before, .fa-facebook:before {
+        font-size: 6.5rem;
+    }
+    .fa-twitter:before {
+        font-size: 6.5rem;
+    }
+    .fa-instagram:before {
+        font-size: 6.5rem;
+        border: none;
+    }
+    .form_right {
+        width: 100%;
+        padding-bottom: 6rem;
+    }
+    .form_right h2 {
+        font-size: 3rem;
+        margin-top: 2rem;
+        padding: 2rem 2rem 2rem 0;
+    }
+    .form_input input:nth-child(1), .form_input input:nth-child(2), .form_input input:nth-child(3) {
+        height: 7rem;
+        font-size: 2.5rem;
+    }
+    .form_input .message {
+        height: 12rem;
+        font-size: 2rem;
+    }
+    .form_input .form_button {
+        width: 50%;
+        height: 5rem;
+        font-size: 3rem;
+        margin-top: 2rem;
+    }
+    footer {
+        top: 160px;
+        bottom: 0 !important;
+    }
+    footer .footer {
+        height: auto;
+        flex-direction: column;
+        padding: 3rem 0 3rem 0;
+    }
+    .footer p {
+        font-size: 2.5rem;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+}
+@media only screen and (min-device-width: 813px) and (max-device-width:1024px) {
+    .overlay {
+        height: 200%;
+    }
+    .truck_img {
+        top: 250px;
+        width: 40rem;
+       
+    }
+    .Truck {
+        position: fixed;
+        width: 40rem;
+        right: 9rem;
+    }
+    .home {
+        flex-direction: row;
+    }
+    .home .left {
+        flex-direction: column;
+        right: 0;
+        position: relative;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+        padding-right: 5rem;
+        padding-left: 5rem;
+        bottom: -6rem;
+    }
+    .first_para {
+        font-size: 5rem;
+    }
+    .second_para {
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+    .left_button {
+        width: 35%;
+        height: 3rem;
+        font-size: 1.5rem;
+        outline-style: none;
+        border: none;
+    }
+    .home .right {
+        display: none;
+    }
+    .left_button {
+        margin-top: 4rem;
+        font-size: 3rem;
+        width: 50%;
+        height: 20%;
+    }
+    .about_main {
+        top: 159px;
+        z-index: 10;
+    }
+    .about {
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+    }
+    .about_left {
+        width: 100%;
+        border: none;
+        outline: none;
+    }
+    .about_right {
+        width: 100%;
+    }
+    .about_right_img {
+        width: 100%;
+        margin-top: 13rem;
+        height: 30rem;
+    }
+    .our_services {
+        align-items: center;
+        text-align: center;
+    }
+    .services_title {
+        font-size: 6rem;
+    }
+    .services_main {
+        flex-wrap: wrap;
+        line-height: 1.85714285714286;
+    }
+    .icon_first, .icon_second, .icon_third, .icon_four {
+        display: flex;
+        flex-direction: column;
+    }
+    .image_icon_truck img, .image_icon_ship img, .image_icon_jet img, .image_icon_rail img {
+        width: 23%;
+    }
+    .first_content h2, .second_content h2, .third_content h2, .four_content h2 {
+        font-size: 4rem;
+        padding: 1.5rem 0 1.5rem 0;
+    }
+    .first_content p, .second_content p, .third_content p, .four_content p {
+        font-size: 2rem;
+    }
+    .row {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .employees, .customer, .design, .order {
+        border: none;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-bottom: 2px solid white;
+        padding-bottom: 3rem;
+        letter-spacing: 2px;
+    }
+  
+    .design p:nth-child(1), .employees p:nth-child(1), .customer p:nth-child(1), .order p:nth-child(1) {
+        font-size: 13rem;
+        padding: 1rem 0 1rem 0;
+        font-weight: 600;
+    }
+    .employee-p, .customer-p, .design-p, .order-p {
+        font-size: 3rem;
+        padding: 4.5rem 0 1rem 0;
+        font-weight: 600;
+    }
+    .slider_title {
+        font-size: 6rem;
+        text-align: center;
+    }
+    .quote {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+    .quote_left {
+        padding: 0;
+        margin-top: 2rem;
+    }
+    .quote_left h1 {
+        padding-top: 3rem;
+        font-size: 4rem;
+    }
+    .quote_left hr {
+        width: 100%;
+    }
+    .quote_left p {
+        padding-top: 3rem;
+        font-size: 2.5rem;
+        line-height: 4rem;
+    }
+    .quote_right {
+        width: 100%;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .qoute_button {
+        width: 70%;
+        height: 6rem;
+        font-size: 3rem;
+    }
+    .testimonials {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .testimonials_title {
+        padding-left: 0 !important;
+        margin: 0 0 0 -3rem;
+        align-items: center;
+        text-align: center;
+        overflow: hidden;
+    }
+    .testimonials_title p {
+        font-size: 7rem;
+    }
+    .testimonials_head_1, .testimonials_head_2, .testimonials_head_3 {
+        flex-wrap: wrap-reverse;
+        height: auto;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 3rem;
+    }
+    .testimonials_left {
+        height: auto;
+        width: auto;
+        margin-bottom: 2rem;
+    }
+    .testimonials_left img {
+        width: 9rem;
+        height: 9rem;
+    }
+    .testimonials_h1 {
+        font-size: 3.5rem;
+    }
+    .testimonials_h2 {
+        font-size: 2.5rem;
+    }
+    .testimonials_right {
+        padding-top: 0;
+        padding: 2rem 2rem 2rem 2rem;
+    }
+    .testimonials_right h2 {
+        font-size: 2rem;
+    }
+    .testimonials_head_2 .testimonials_left, .testimonials_head_3 .testimonials_left {
+        margin-bottom: 2rem;
+    }
+    .contact_title h1 {
+        margin-left: 0 !important;
+        align-items: center;
+        text-align: center;
+    }
+    .form {
+        display: flex;
+        flex-wrap: wrap;
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+    .form_left {
+        width: 100%;
+        padding-left: 0px;
+    }
+    .form_left_fir h3, .form_left_third h3 {
+        font-size: 3rem;
+        padding-top: 3rem;
+        padding-bottom: 6rem;
+    }
+    .form_left_fir p {
+        font-size: 2rem;
+    }
+    .form_left_third a {
+        margin: 0 1rem 0 1rem;
+    }
+    .fa {
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: 7rem;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        border-radius: 50%;
+        -moz-osx-font-smoothing: grayscale;
+        width: 23%;
+        height: 10rem;
+    }
+    .fa-facebook-f:before, .fa-facebook:before {
+        font-size: 6.5rem;
+    }
+    .fa-twitter:before {
+        font-size: 6.5rem;
+    }
+    .fa-instagram:before {
+        font-size: 6.5rem;
+        border: none;
+    }
+    .form_right {
+        width: 100%;
+        padding-bottom: 6rem;
+    }
+    .form_right h2 {
+        font-size: 3rem;
+        margin-top: 2rem;
+        padding: 2rem 2rem 2rem 0;
+    }
+    .form_input input:nth-child(1), .form_input input:nth-child(2), .form_input input:nth-child(3) {
+        height: 7rem;
+        font-size: 2.5rem;
+    }
+    .form_input .message {
+        height: 12rem;
+        font-size: 2rem;
+    }
+    .form_input .form_button {
+        width: 50%;
+        height: 5rem;
+        font-size: 3rem;
+        margin-top: 2rem;
+    }
+    footer {
+        top: 160px;
+        bottom: 0 !important;
+    }
+    footer .footer {
+        height: auto;
+        flex-direction: column;
+        padding: 3rem 0 3rem 0;
+    }
+    .footer p {
+        font-size: 2.5rem;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+}
+@media only screen and (min-device-width: 1025px) and (max-device-width:1200px) {
+.truck_img {
+	position: fixed;
+	top: 250px;
+	left: 200px;
+}
+
+.Truck {
+	object-fit: contain;
+}
+
+.overlay {
+	height: 200%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-image: linear-gradient( 90deg, #0f2a69 50%, #77080b 50%);
+	z-index: 10;
+	opacity: 0.50;
+}
+
+.modal {
+	position: relative;
+	z-index: 11;
+	color: white;
+	font-weight: 500;
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+}
+
+.home {
+	display: flex;
+	flex-direction: column;
+}
+
+.home .left {
+	display: flex;
+	flex-direction: column;
+	right: 0;
+	position: relative;
+	justify-items: flex-start;
+	width: 50%;
+	padding-right: 5rem;
+	padding-left: 5rem;
+	bottom: -6rem;
+}
+
+.first_para {
+	font-size: 3rem;
+}
+
+.second_para {
+	font-size: medium;
+	padding-bottom: 1rem;
+}
+
+.left_button {
+	background-color: white;
+	color: red;
+	padding: 10px;
+	width: 9rem;
+	outline-style: none;
+	border: none;
+}
+
+.home .right {
+	width: 50%;
+}
+
+.nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.option_1, .option_2, .option_3, .option_4, .option_5, .option_6 {
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 1.2rem;
+}
+
+/* about Start */
+
+.about_main {
+	position: relative;
+	top: 302px;
+	color: white;
+	background-color: #0A2463;
+	padding-right: 5rem;
+	padding-left: 5rem;
+    z-index: 10;
+}
+
+.about {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	background-color: #0A2463;
+}
+
+.about_left {
+	display: flex;
+	flex-direction: column;
+	justify-items: flex-start;
+	width: 50%;
+	border-top: 3px solid #6EC1E4;
+	border-bottom: 3px solid #6EC1E4;
+	border-left: 3px solid #6EC1E4;
+	letter-spacing: 2px;
+	padding: 2rem 2rem 0 0;
+}
+
+.about_left_title {
+	position: relative;
+	top: 5rem;
+	left: 2rem;
+	font-size: 4rem;
+	word-spacing: 1rem;
+	font-family: 'Barlow Condensed', sans-serif;
+}
+
+.about_left_para {
+	position: relative;
+	top: 6rem;
+	left: 2rem;
+	padding-right: 4rem;
+	line-height: 2rem;
+}
+
+.about_left_bottom {
+	position: relative;
+	top: 9rem;
+	left: 2rem;
+}
+
+.about_right {
+	display: flex;
+	width: 50%;
+	justify-content: flex-start;
+}
+
+.about_right_img {
+	width: 26rem !important;
+	height:36rem;
+    padding-top: 5rem;
+}
+
+/* About End */
+
+/* Our Services */
+
+.our_services {
+	padding-top: 10rem;
+	word-spacing: 1rem;
+	top: 10rem;
+	word-spacing: 1rem;
+	letter-spacing: 2px;
+}
+
+.services_title {
+	font-size: 3rem;
+	padding-left: 2rem;
+	font-family: 'Barlow Condensed', sans-serif;
+}
+
+.services_main {
+	display: flex;
+	margin-top: 5rem;
+	line-height: 2rem;
+	/* flex-wrap: wrap; */
+}
+
+.icon_truck, .ship, .jet, .rail {
+	padding: 1rem;
+}
+
+.icon_first, .icon_second, .icon_third, .icon_four {
+	display: flex;
+}
+
+.image_icon_truck, .image_icon_ship, .image_icon_jet, .image_icon_rail {
+	padding-top: 2rem;
+}
+
+.first_content, .second_content, .third_content, .four_content {
+	display: flex;
+	flex-direction: column;
+	padding: 1rem 2rem 1rem 2rem;
+}
+
+.first_content h2, .second_content h2, .third_content h2, .four_content h2 {
+	font-family: 'Barlow Condensed', sans-serif;
+}
+
+.first_content p, .second_content p, .third_content p, .four_content p {
+	padding-top: 1rem;
+	color: grey;
+	font-family: 'Roboto Slab', serif;
+}
+
+/* Services End */
+
+/* Counter */
+
+.counter {
+	display: flex;
+	background-color: #E30613;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.employees, .customer, .design, .order {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.row {
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+.counter-count {
+	font-size: 55px;
+	border-radius: 50%;
+	color: #ffffff;
+	text-align: center;
+	align-content: center;
+	line-height: 92px;
+	width: 92px;
+	height: 92px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	/* display: inline-block; */
+}
+
+.employee-p, .customer-p, .order-p, .design-p {
+	font-size: 20px;
+	color: lightgray;
+	line-height: 30px;
+}
+
+.employees {
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
+.employees p:nth-child(1) {
+	font-size: 4rem;
+}
+
+.customer {
+	border-right: 1px solid white;
+	padding-left: 3rem;
+	padding-right: 3rem;
+	text-align: center;
+}
+
+.customer p:nth-child(1) {
+	font-size: 4rem;
+}
+
+.design {
+	border-right: 1px solid white;
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
+.design p:nth-child(1) {
+	font-size: 4rem;
+}
+
+.order {
+	border-right: 1px solid white;
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
+.order p:nth-child(1) {
+	font-size: 4rem;
+}
+
+/* Counter End */
+
+/* slider Start */
+
+.slider_title {
+	font-size: 4rem;
+	font-family: 'Barlow Condensed', sans-serif;
+}
+
+.slider {
+	margin-top: 7rem;
+}
+
+.main_div {
+	background-color: #0A2463;
+	margin-top: 7rem;
+}
+
+.Slider_Div {
+	position: relative;
+	left: 10%;
+	width: 80%;
+	height: 500px;
+	background-image: url(images/slider_1.png);
+	background-size: 100% 100%;
+	border: 2px solid black;
+	animation: slider 10s infinite linear;
+}
+
+@keyframes slider {
+	0% {
+		background-image: url(images/slider_1.png);
+	}
+	35% {
+		background-image: url(images/slider_2.png);
+	}
+	75% {
+		background-image: url(images/slider_3.png);
+	}
+}
+
+/* slider ends */
+
+/* quote start */
+
+.quote {
+	background-color: #E30613;
+	display: flex;
+	align-items: center;
+	text-align: flex-start;
+	font-family: 'Barlow Condensed', sans-serif;
+	margin-top: 7rem;
+	height: 15rem;
+	padding-left: 5rem;
+	padding-right: 5rem;
+}
+
+.quote_left {
+	flex: 1;
+	padding-right: 7rem;
+}
+
+.quote_left h1 {
+	padding-bottom: 1rem;
+}
+
+.quote_left hr {
+	width: 2%;
+	background-color: #f9f9f9;
+	opacity: 0.8;
+}
+
+.quote_left p {
+	color: rgba(255, 255, 255, 0.6);
+	letter-spacing: 1px;
+	line-height: 1.4rem;
+	padding-top: 1rem;
+	font-size: 1.3rem;
+}
+
+.qoute_button {
+	color: red;
+	background-color: #f9f9f9;
+	outline: none;
+	border: none;
+	padding: 0.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+/* quote end */
+
+/* Testimonials Start */
+
+.testimonials {
+	margin-top: 7rem;
+	background-color: #0A2463;
+}
+
+.testimonials_title {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: left;
+	padding-left: 8.5rem;
+	background-color: #0A2463;
+}
+
+.testimonials_heading {
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-size: 3.5294117647059rem;
+	font-family: 'Barlow Condensed', sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.testimonials_left {
+	margin: 70px 110px 0 70px;
+}
+
+.testimonials_head_2 .left_head_2 {
+	margin: 70px 65px 0 70px;
+}
+
+.testimonials_head_3 .left_head_3 {
+	margin: 70px 90px 0 70px;
+}
+
+.testimonials_img {
+	display: flex;
+	height: 50px;
+}
+
+.testimonials_head_1, .testimonials_head_2, .testimonials_head_3 {
+	display: flex;
+	border: 2px solid #7A7A7A;
+	height: 15rem;
+	background-color: #0A2463;
+	margin: 100px 90px 0 90px;
+	margin-bottom: -3rem;
+}
+
+.testimonials_head_2 .img_2 {
+	padding-right: 0;
+}
+
+.testimonials_h1, .testimonials_h2 {
+	display: flex;
+	color: white;
+	padding: 5px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.testimonials_h1 {
+	margin: 20px 0 0;
+	font-size: 22px;
+	font-family: 'Barlow Condensed', sans-serif;
+	color: #ffffff;
+	white-space: nowrap;
+}
+
+.testimonials_h2 {
+	font-size: 15px;
+	font-family: 'Barlow Condensed', sans-serif;
+	white-space: nowrap;
+	color: #ffffff;
+}
+
+.testimonials_right {
+	text-align: center;
+	align-items: center;
+	padding-top: 5rem;
+	padding-right: 55px;
+	padding-left: 55px;
+	border-left: 2px solid #7A7A7A;
+	font-family: 'Roboto Slab', serif;
+	font-size: 1rem;
+	line-height: 1.85714285714286;
+	color: rgba(255, 255, 255, .75);
+	font-style: italic;
+	font-weight: 600;
+	background-color: #0A2463;
+	background-color: rgba(35, 58, 115, .5);
+}
+
+/* Testimonials Ends */
+
+/* CONTACT START  */
+
+.contact {
+	margin-top: 13rem;
+}
+
+.contact_title h1 {
+	font-size: 4rem;
+	font-family: 'Barlow Condensed', sans-serif;
+	margin-left: 8rem;
+	padding-bottom: 5rem;
+	letter-spacing: normal;
+	line-height: 70px;
+}
+
+.form {
+	display: flex;
+	font-family: 'Barlow Condensed', sans-serif;
+}
+
+.form_left {
+	width: 50%;
+	padding-left: 4rem;
+	letter-spacing: 1px;
+	color: white;
+}
+
+.form_left_fir h3 {
+	padding-bottom: 3rem;
+	padding-top: 2rem;
+}
+
+.form_left_fir p {
+	opacity: 60.0%;
+	padding: 0.5rem 0 0.5rem 0.5rem;
+}
+
+.form_left_third {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+/* Icons */
+
+.fa {
+	padding: 20px;
+	text-align: center;
+	size: 50px;
+	margin: 8px 2px;
+	font-size: 20px;
+	border-radius: 50px;
+}
+
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+}
+
+.fa-twitter {
+	background: #55ACEE;
+	color: white;
+}
+
+.fa-instagram {
+	background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+	color: white;
+}
+
+.fa:hover {
+	opacity: 0.9;
+}
+
+/* Icons */
+
+.form_right {
+	width: 50%;
+}
+
+.form_right h2 {
+	padding-top: 2rem;
+}
+
+.form_input {
+	display: flex;
+	flex-direction: column;
+	padding-right: 2rem;
+}
+
+.form_input .name {
+	outline: none;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	height: 3rem;
+	padding: 1rem 1rem 1rem 1rem;
+}
+
+.form_input .email {
+	outline: none;
+	height: 3rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	padding: 1rem 1rem 1rem 1rem;
+}
+
+.form_input .sub {
+	outline: none;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	height: 3rem;
+	padding: 1rem 1rem 1rem 1rem;
+}
+
+.form_input .message {
+	outline: none;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border: none;
+	padding: 1rem 1rem 1rem 1rem;
+}
+
+.form_button {
+	background-color: white;
+	opacity: 95.0%;
+	color: #e30613;
+	font-size: 17px;
+	line-height: 17px;
+	text-align: center;
+	letter-spacing: normal;
+	width: 20%;
+	height: 3rem;
+}
+
+/* CONTCTA END */
+
+footer {
+	position: relative;
+	top: 293px;
+	bottom: 0 !important;
+}
+
+footer .footer {
+	display: flex;
+	font-weight: 300;
+	height: 5rem;
+	padding: 0 2rem 0 2rem;
+	align-items: center;
+	font-size: 1.5rem;
+	justify-content: space-between;
+	color: white;
+	background-color: #071b4a;
+}
+}
+@media only screen and (min-device-width: 1201px) and (max-device-width:2000px) {
+    body{
+        background-color: black;
+    }
+    .truck_img {
+        position: fixed;
+        top: 250px;
+        left: 270px;
+    }
+    
+    .Truck {
+        object-fit: contain;
+    }
+    
+    .overlay {
+        height: 200%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-image: linear-gradient( 90deg, #0a2463  50%, #550c11 50%);
+        z-index: 10;
+        opacity: 0.50;
+    }
+    
+    .modal {
+        position: relative;
+        z-index: 11;
+        color: white;
+        font-weight: 500;
+    }
+    
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .home {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .home .left {
+        display: flex;
+        flex-direction: column;
+        right: 0;
+        position: relative;
+        justify-items: flex-start;
+        width: 50%;
+        padding-right: 5rem;
+        padding-left: 5rem;
+        bottom: -6rem;
+    }
+    
+    .first_para {
+        font-size: 3rem;
+    }
+    
+    .second_para {
+        font-size: medium;
+        padding-bottom: 1rem;
+    }
+    
+    .left_button {
+        background-color: white;
+        color: red;
+        padding: 10px;
+        width: 9rem;
+        outline-style: none;
+        border: none;
+    }
+    
+    .home .right {
+        width: 50%;
+    }
+    
+    .nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .option_1, .option_2, .option_3, .option_4, .option_5, .option_6 {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 1.2rem;
+    }
+    
+    /* about Start */
+    
+    .about_main {
+        position: relative;
+        top: 302px;
+        color: white;
+        background-color: #0A2463;
+        padding-right: 5rem;
+        padding-left: 5rem;
+        z-index: 10;
+    }
+    
+    .about {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        background-color: #0A2463;
+    }
+    
+    .about_left {
+        display: flex;
+        flex-direction: column;
+        justify-items: flex-start;
+        width: 50%;
+        border-top: 3px solid #6EC1E4;
+        border-bottom: 3px solid #6EC1E4;
+        border-left: 3px solid #6EC1E4;
+        letter-spacing: 2px;
+        padding: 2rem 2rem 0 0;
+    }
+    
+    .about_left_title {
+        position: relative;
+        top: 5rem;
+        left: 2rem;
+        font-size: 4rem;
+        word-spacing: 1rem;
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+    
+    .about_left_para {
+        position: relative;
+        top: 6rem;
+        left: 2rem;
+        padding-right: 4rem;
+        line-height: 2rem;
+    }
+    
+    .about_left_bottom {
+        position: relative;
+        top: 9rem;
+        left: 2rem;
+    }
+    
+    .about_right {
+        display: flex;
+        width: 50%;
+        justify-content: flex-start;
+    }
+    
+    .about_right_img {
+        width: 36rem ;
+        height:36rem;
+    }
+    
+    /* About End */
+    
+    /* Our Services */
+    
+    .our_services {
+        padding-top: 10rem;
+        word-spacing: 1rem;
+        top: 10rem;
+        word-spacing: 1rem;
+        letter-spacing: 2px;
+    }
+    
+    .services_title {
+        font-size: 3rem;
+        padding-left: 2rem;
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+    
+    .services_main {
+        display: flex;
+        margin-top: 5rem;
+        line-height: 2rem;
+        /* flex-wrap: wrap; */
+    }
+    
+    .icon_truck, .ship, .jet, .rail {
+        padding: 1rem;
+    }
+    
+    .icon_first, .icon_second, .icon_third, .icon_four {
+        display: flex;
+    }
+    
+    .image_icon_truck, .image_icon_ship, .image_icon_jet, .image_icon_rail {
+        padding-top: 2rem;
+    }
+    
+    .first_content, .second_content, .third_content, .four_content {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 2rem 1rem 2rem;
+    }
+    
+    .first_content h2, .second_content h2, .third_content h2, .four_content h2 {
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+    
+    .first_content p, .second_content p, .third_content p, .four_content p {
+        padding-top: 1rem;
+        color: grey;
+        font-family: 'Roboto Slab', serif;
+    }
+    
+    /* Services End */
+    
+    /* Counter */
+    
+    .counter {
+        display: flex;
+        background-color: #E30613;
+        justify-content: space-around;
+        text-align: center;
+    }
+    
+    .employees, .customer, .design, .order {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .row {
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .counter-count {
+        font-size: 55px;
+        border-radius: 50%;
+        color: #ffffff;
+        text-align: center;
+        align-content: center;
+        line-height: 92px;
+        width: 92px;
+        height: 92px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        /* display: inline-block; */
+    }
+    
+    .employee-p, .customer-p, .order-p, .design-p {
+        font-size: 20px;
+        color: lightgray;
+        line-height: 30px;
+    }
+    
+    .employees {
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    
+    .employees p:nth-child(1) {
+        font-size: 4rem;
+    }
+    
+    .customer {
+        border-right: 1px solid white;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        text-align: center;
+    }
+    
+    .customer p:nth-child(1) {
+        font-size: 4rem;
+    }
+    
+    .design {
+        border-right: 1px solid white;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    
+    .design p:nth-child(1) {
+        font-size: 4rem;
+    }
+    
+    .order {
+        border-right: 1px solid white;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    
+    .order p:nth-child(1) {
+        font-size: 4rem;
+    }
+    
+    /* Counter End */
+    
+    /* slider Start */
+    
+    .slider_title {
+        font-size: 4rem;
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+    
+    .slider {
+        margin-top: 7rem;
+    }
+    
+    .main_div {
+        background-color: #0A2463;
+        margin-top: 7rem;
+    }
+    
+    .Slider_Div {
+        position: relative;
+        left: 10%;
+        width: 80%;
+        height: 500px;
+        background-image: url(images/slider_1.png);
+        background-size: 100% 100%;
+        border: 2px solid black;
+        animation: slider 10s infinite linear;
+    }
+    
+    @keyframes slider {
+        0% {
+            background-image: url(images/slider_1.png);
+        }
+        35% {
+            background-image: url(images/slider_2.png);
+        }
+        75% {
+            background-image: url(images/slider_3.png);
+        }
+    }
+    
+    /* slider ends */
+    
+    /* quote start */
+    
+    .quote {
+        background-color: #E30613;
+        display: flex;
+        align-items: center;
+        text-align: flex-start;
+        font-family: 'Barlow Condensed', sans-serif;
+        margin-top: 7rem;
+        height: 15rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    
+    .quote_left {
+        flex: 1;
+        padding-right: 7rem;
+    }
+    
+    .quote_left h1 {
+        padding-bottom: 1rem;
+    }
+    
+    .quote_left hr {
+        width: 2%;
+        background-color: #f9f9f9;
+        opacity: 0.8;
+    }
+    
+    .quote_left p {
+        color: rgba(255, 255, 255, 0.6);
+        letter-spacing: 1px;
+        line-height: 1.4rem;
+        padding-top: 1rem;
+        font-size: 1.3rem;
+    }
+    
+    .qoute_button {
+        color: red;
+        background-color: #f9f9f9;
+        outline: none;
+        border: none;
+        padding: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    /* quote end */
+    
+    /* Testimonials Start */
+    
+    .testimonials {
+        margin-top: 7rem;
+        background-color: #0A2463;
+    }
+    
+    .testimonials_title {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: left;
+        padding-left: 8.5rem;
+        background-color: #0A2463;
+    }
+    
+    .testimonials_heading {
+        margin: 0;
+        padding: 0;
+        color: white;
+        font-size: 3.5294117647059rem;
+        font-family: 'Barlow Condensed', sans-serif;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    
+    .testimonials_left {
+        margin: 70px 110px 0 70px;
+    }
+    
+    .testimonials_head_2 .left_head_2 {
+        margin: 70px 65px 0 70px;
+    }
+    
+    .testimonials_head_3 .left_head_3 {
+        margin: 70px 90px 0 70px;
+    }
+    
+    .testimonials_img {
+        display: flex;
+        height: 50px;
+    }
+    
+    .testimonials_head_1, .testimonials_head_2, .testimonials_head_3 {
+        display: flex;
+        border: 2px solid #7A7A7A;
+        height: 15rem;
+        background-color: #0A2463;
+        margin: 100px 90px 0 90px;
+        margin-bottom: -3rem;
+    }
+    
+    .testimonials_head_2 .img_2 {
+        padding-right: 0;
+    }
+    
+    .testimonials_h1, .testimonials_h2 {
+        display: flex;
+        color: white;
+        padding: 5px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    
+    .testimonials_h1 {
+        margin: 20px 0 0;
+        font-size: 22px;
+        font-family: 'Barlow Condensed', sans-serif;
+        color: #ffffff;
+        white-space: nowrap;
+    }
+    
+    .testimonials_h2 {
+        font-size: 15px;
+        font-family: 'Barlow Condensed', sans-serif;
+        white-space: nowrap;
+        color: #ffffff;
+    }
+    
+    .testimonials_right {
+        text-align: center;
+        align-items: center;
+        padding-top: 5rem;
+        padding-right: 55px;
+        padding-left: 55px;
+        border-left: 2px solid #7A7A7A;
+        font-family: 'Roboto Slab', serif;
+        font-size: 1rem;
+        line-height: 1.85714285714286;
+        color: rgba(255, 255, 255, .75);
+        font-style: italic;
+        font-weight: 600;
+        background-color: #0A2463;
+        background-color: rgba(35, 58, 115, .5);
+    }
+    
+    /* Testimonials Ends */
+    
+    /* CONTACT START  */
+    
+    .contact {
+        margin-top: 13rem;
+    }
+    
+    .contact_title h1 {
+        font-size: 4rem;
+        font-family: 'Barlow Condensed', sans-serif;
+        margin-left: 8rem;
+        padding-bottom: 5rem;
+        letter-spacing: normal;
+        line-height: 70px;
+    }
+    
+    .form {
+        display: flex;
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+    
+    .form_left {
+        width: 50%;
+        padding-left: 4rem;
+        letter-spacing: 1px;
+        color: white;
+    }
+    
+    .form_left_fir h3 {
+        padding-bottom: 3rem;
+        padding-top: 2rem;
+    }
+    
+    .form_left_fir p {
+        opacity: 60.0%;
+        padding: 0.5rem 0 0.5rem 0.5rem;
+    }
+    
+    .form_left_third {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    
+    /* Icons */
+    
+    .fa {
+        padding: 20px;
+        text-align: center;
+        size: 50px;
+        margin: 8px 2px;
+        font-size: 20px;
+        border-radius: 50px;
+    }
+    
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+    }
+    
+    .fa-twitter {
+        background: #55ACEE;
+        color: white;
+    }
+    
+    .fa-instagram {
+        background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+        color: white;
+    }
+    
+    .fa:hover {
+        opacity: 0.9;
+    }
+    
+    /* Icons */
+    
+    .form_right {
+        width: 50%;
+    }
+    
+    .form_right h2 {
+        padding-top: 2rem;
+    }
+    
+    .form_input {
+        display: flex;
+        flex-direction: column;
+        padding-right: 2rem;
+    }
+    
+    .form_input .name {
+        outline: none;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        height: 3rem;
+        padding: 1rem 1rem 1rem 1rem;
+    }
+    
+    .form_input .email {
+        outline: none;
+        height: 3rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding: 1rem 1rem 1rem 1rem;
+    }
+    
+    .form_input .sub {
+        outline: none;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        height: 3rem;
+        padding: 1rem 1rem 1rem 1rem;
+    }
+    
+    .form_input .message {
+        outline: none;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border: none;
+        padding: 1rem 1rem 1rem 1rem;
+    }
+    
+    .form_button {
+        background-color: white;
+        opacity: 95.0%;
+        color: #e30613;
+        font-size: 17px;
+        line-height: 17px;
+        text-align: center;
+        letter-spacing: normal;
+        width: 20%;
+        height: 3rem;
+    }
+    
+    /* CONTCTA END */
+    
+    footer {
+        position: relative;
+        top: 293px;
+        bottom: 0 !important;
+    }
+    
+    footer .footer {
+        display: flex;
+        font-weight: 300;
+        height: 5rem;
+        padding: 0 2rem 0 2rem;
+        align-items: center;
+        font-size: 1.5rem;
+        justify-content: space-between;
+        color: white;
+        background-color: #071b4a;
+    }
+} 
